@@ -1,0 +1,31 @@
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Pretendard',sans-serif;
+      background:#0a0a0a;
+      color:#fff;
+      overflow-x:hidden;
+    }
+
+    ::selection{
+      background:#fff;
+      color:#000;
+    }
+
+    a{
+      text-decoration:none;
+      color:inherit;
+    }
+
+    ul{
+      list-style:none;
+    }
+
+    img{
+      width:100%;
+      display:block;
+    }

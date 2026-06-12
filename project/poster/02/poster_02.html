@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Motion Poster 01</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#050505;
+  color:#fff;
+  font-family:'Inter',sans-serif;
+}
+
+.container{
+  width:min(1200px,90%);
+  margin:auto;
+}
+
+.hero{
+  padding:140px 0 80px;
+}
+
+.hero span{
+  display:block;
+  font-size:14px;
+  letter-spacing:4px;
+  opacity:.5;
+  margin-bottom:20px;
+}
+
+.hero h1{
+  font-size:clamp(60px,8vw,140px);
+  line-height:.9;
+  letter-spacing:-6px;
+  margin-bottom:30px;
+}
+
+.hero p{
+  color:rgba(255,255,255,.6);
+  line-height:1.8;
+}
+
+.poster-wrap{
+  padding-bottom:120px;
+  margin:0 auto;
+  width:800px;
+}
+
+.poster-wrap video{
+  width:100%;
+  border-radius:24px;
+  display:block;
+}
+
+.back-btn{
+  position:fixed;
+  top:30px;
+  left:30px;
+
+  padding:14px 22px;
+
+  border-radius:999px;
+
+  border:1px solid rgba(255,255,255,.1);
+
+  background:rgba(255,255,255,.04);
+
+  color:#fff;
+
+  text-decoration:none;
+
+  backdrop-filter:blur(10px);
+}
+
+</style>
+
+</head>
+<body>
+
+<a href="../poster.html" class="back-btn">
+← BACK
+</a>
+
+<section class="hero">
+
+<div class="container">
+
+<span>MOTION POSTER</span>
+
+<!-- <h1>
+NEON<br>
+FLOW
+</h1>
+
+<p>
+타이포그래피와 모션을 활용한 비주얼 포스터 프로젝트
+</p> -->
+
+</div>
+
+</section>
+
+<section class="poster-wrap">
+
+<div class="container">
+
+<video
+autoplay
+muted
+loop
+playsinline>
+
+<source src="../images/poster_02.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+</section>
+
+</body>
+</html>
