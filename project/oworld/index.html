@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오월드</title>
+
+
+
+    <meta property="og:site_name" content="오월드">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="오월드">
+    <meta property="og:description" content="다양한 테마파크 오월드">
+    <meta property="og:image" content="images/common/og_img.png"> <!-- 정해진 크기없음 비율 가로:세로 = 2:1 (가로 세로 비율 맞춤) -->
+
+
+    <link rel="shortcut icon" href="images/common/favicon.ico">
+
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Do+Hyeon&Noto+Sans+KR:wght@100;300;400;500;700;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+    
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+    <div id="wrap">
+
+<header class="header">
+  <div class="inner header-inner">
+
+    <div class="logo">
+      <img src="./images/common/logo.png" alt="오월드">
+    </div>
+
+    <nav class="nav">
+      <ul class="menu">
+
+        <li>
+          <a href="#">기관소개</a>
+          <ul class="submenu">
+            <li><a href="#">오월드 소개</a></li>
+            <li><a href="#">연혁</a></li>
+            <li><a href="#">조직도</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">이용정보</a>
+          <ul class="submenu">
+            <li><a href="#">이용요금</a></li>
+            <li><a href="#">운영시간</a></li>
+            <li><a href="#">시설안내</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">축제·이벤트</a>
+          <ul class="submenu">
+            <li><a href="#">진행중 이벤트</a></li>
+            <li><a href="#">종료된 이벤트</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">즐길거리</a>
+          <ul class="submenu">
+            <li><a href="#">어트랙션</a></li>
+            <li><a href="#">동물원</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">고객센터</a>
+          <ul class="submenu">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+  </div>
+
+    <div class="mobile-menu">
+     <ul class="mobile-menu-list">
+  <li class="has-sub">
+      <a href="#">기관소개</a>
+      <ul class="submenu">
+        <li><a href="#">오월드 소개</a></li>
+        <li><a href="#">연혁</a></li>
+        <li><a href="#">조직도</a></li>
+      </ul>
+    </li>
+
+    <li class="has-sub">
+      <a href="#">이용정보</a>
+      <ul class="submenu">
+        <li><a href="#">이용요금</a></li>
+        <li><a href="#">운영시간</a></li>
+        <li><a href="#">시설안내</a></li>
+      </ul>
+    </li>
+
+    <li class="has-sub">
+      <a href="#">축제·이벤트</a>
+      <ul class="submenu">
+        <li><a href="#">진행중 이벤트</a></li>
+        <li><a href="#">종료된 이벤트</a></li>
+      </ul>
+    </li>
+
+    <li class="has-sub">
+      <a href="#">즐길거리</a>
+      <ul class="submenu">
+        <li><a href="#">어트랙션</a></li>
+        <li><a href="#">동물원</a></li>
+      </ul>
+    </li>
+
+    <li class="has-sub">
+      <a href="#">고객센터</a>
+      <ul class="submenu">
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</div>
+    <!-- mobile-menu -->
+
+  </header>
+
+<section class="main-visual">
+    <div class="cursor-light"></div>
+
+  <div class="visual-text">
+    <h1>WELCOME TO OWORLD</h1>
+    <p>
+      소중한 사람들과 함께하는 시간을 즐기며,<br>
+      그 순간을 특별한 추억으로 남겨보세요
+    </p>
+  </div>
+</section>
+
+
+
+<section class="event-section">
+  <div class="inner">
+
+    <div class="event-header">
+      <div>
+        <h2>EVENT</h2>
+        <p class="sub">오월드에서 진행중인 이벤트를 소개합니다.</p>
+      </div>  
+      <a href="#" class="more-btn">이벤트 더보기</a>
+    </div>
+
+    <!-- ✅ PC용 -->
+    <div class="card-wrap pc">
+      
+      <div class="card">
+        <img src="./images/main/event_01.jpeg">
+        <div class="card-text">
+          <h3>버드랜드 퍼포먼스</h3>
+          <p>생태설명회와 다양한 체험들을 만나...</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/main/event_02.png">
+        <div class="card-text">
+          <h3>아프리카 사파리 미운영</h3>
+          <p>시설개선공사로 잠시 운영이 중단되...</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/main/event_03.jpg">
+        <div class="card-text">
+          <h3>크리스마스 공연시간표</h3>
+          <p>크리스마스 및 연말 공연 시간을 알아...</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/main/event_04.jpeg">
+        <div class="card-text">
+          <h3>펭귄 생태설명회</h3>
+          <p>펭귄 생태설명회에 참여하면서 귀여운...</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ✅ 모바일용 (기존 유지) -->
+    <div class="wallet mobile">
+      <div class="wallet-card">
+        <img src="./images/main/event_01.jpeg">
+        <div class="card-text">
+          <h3>버드랜드 퍼포먼스</h3>
+          <p>생태설명회와 다양한 체험들을 만나...</p>
+        </div>
+      </div>
+
+      <div class="wallet-card">
+        <img src="./images/main/event_02.png">
+        <div class="card-text">
+          <h3>아프리카 사파리 미운영</h3>
+          <p>시설개선공사로 잠시 운영이 중단되...</p>
+        </div>
+      </div>
+
+      <div class="wallet-card">
+        <img src="./images/main/event_03.jpg">
+        <div class="card-text">
+          <h3>크리스마스 공연시간표</h3>
+          <p>크리스마스 및 연말 공연 시간을 알아...</p>
+        </div>
+      </div>
+
+      <div class="wallet-card">
+        <img src="./images/main/event_04.jpeg">
+        <div class="card-text">
+          <h3>펭귄 생태설명회</h3>
+          <p>펭귄 생태설명회에 참여하면서 귀여운...</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+      <section class="attraction-section">
+  <div class="inner">
+    <h2>ATTRACTION</h2>
+    <p class="sub">다양한 새와 특이한 식물들을 한곳에서 볼 수 있는 환상의 버드체험 테마파크입니다.</p>
+
+    <div class="attr-wrap">
+
+      <div class="attr-card">
+        <img src="./images/main/attraction_01.jpg" alt="">
+        <div class="overlay"></div>
+        <div class="text">
+          <h3>버드랜드</h3>
+          <p>다양한 새와 특이한 식물들을 한곳에서 볼 수 있는 환상의 버드체험 테마파크입니다.</p>
+        </div>
+        <div class="circle-btn">
+          <svg viewBox="0 0 24 24" class="icon">
+            <path d="M7 17L17 7M17 7H9M17 7V15" 
+                  fill="none" 
+                  stroke="#000" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="attr-card">
+        <img src="./images/main/attraction_02.jpg" alt="">
+        <div class="overlay"></div>
+        <div class="text">
+          <h3>쥬랜드</h3>
+          <p>다양한 동물들과 생생한 자연을 한곳에서 만날 수 있는 특별한 체험형 테마파크입니다.</p>
+        </div>
+        <div class="circle-btn">
+             <svg viewBox="0 0 24 24" class="icon">
+            <path d="M7 17L17 7M17 7H9M17 7V15" 
+                  fill="none" 
+                  stroke="#000" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="attr-card">
+        <img src="./images/main/attraction_03.jpg"alt="">
+        <div class="overlay"></div>
+        <div class="text">
+          <h3>조이랜드</h3>
+          <p>다양한 즐거움과 체험이 어우러진 공간에서 특별한 경험을 선사하는 테마파크입니다.</p>
+        </div>
+        <div class="circle-btn">
+             <svg viewBox="0 0 24 24" class="icon">
+            <path d="M7 17L17 7M17 7H9M17 7V15" 
+                  fill="none" 
+                  stroke="#000" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="attr-card">
+        <img src="./images/main/attraction_04.png" alt="">
+        <div class="overlay"></div>
+        <div class="text">
+          <h3>플라워랜드</h3>
+          <p>다양한 꽃과 자연이 만들어낸 환상적인 공간에서 특별한 순간을 경험할 수 있는 테마파크입니다.</p>
+        </div>
+        <div class="circle-btn">
+             <svg viewBox="0 0 24 24" class="icon">
+            <path d="M7 17L17 7M17 7H9M17 7V15" 
+                  fill="none" 
+                  stroke="#000" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"/>
+          </svg>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="notice-section">
+  <div class="inner notice-wrap">
+
+    <!-- 왼쪽 -->
+    <div class="notice-left">
+      <div class="notice-header">
+        <h3>공지사항</h3>
+        <span class="plus"><i data-lucide="plus"></i></span>
+      </div>
+
+      <ul class="notice-list">
+        <li>
+          <div class="date">
+            <strong>25</strong>
+            <span>2025.01</span>
+          </div>
+
+          <div class="text">
+          <p class="title">대전 오월드 인근지역에 대한 개인전 개최 안내</p>
+          <p class="sub">대전 오월드 연간회원에 대한 개인정보 파기 안내</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="date">
+            <strong>25</strong>
+            <span>2025.01</span>
+          </div>
+          <div class="text">
+          <p class="title">대전 오월드 인근지역에 대한 개인전 개최 안내</p>
+          <p class="sub">대전 오월드 연간회원에 대한 개인정보 파기 안내</p>
+          </div>
+
+        </li>
+
+        <li>
+          <div class="date">
+            <strong>25</strong>
+            <span>2025.01</span>
+          </div>
+          <div class="text">
+          <p class="title">대전 오월드 인근지역에 대한 개인전 개최 안내</p>
+          <p class="sub">대전 오월드 연간회원에 대한 개인정보 파기 안내</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 오른쪽 -->
+    <div class="notice-right">
+      <h3>관람안내</h3>
+      <h2>042-123-4321</h2>
+
+      <ul class="time">
+        <li><span>- 주중</span>09:30 ~ 18:00</li>
+        <li><span>- 나이트파크</span>18:00 ~ 22:00</li>
+        <li><span>- 사파리</span>18:00 ~ 22:00</li>
+      </ul>
+
+      <div class="quick">
+        <div><i data-lucide="ticket"></i><p>이용요금</p></div>
+        <div><i data-lucide="percent"></i><p>할인정보</p></div>
+        <div><i data-lucide="map-pin"></i><p>오시는길</p></div>
+        <div><i data-lucide="headphones"></i><p>고객센터</p></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<section class="story-section">
+
+    <!-- 모바일 전용 제목  -->
+  <h2 class="mobile-title">오월드 스토리</h2>
+  
+  <div class="story-inner">
+
+    <div class="story-left">
+      <div class="sns">
+        <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+      </div>
+
+      <h2>오월드 스토리</h2>
+      <p>미디어로 미리 만나는<br>오월드의 생생한 이야기</p>
+    </div>
+
+    <div class="story-right">
+      <div class="slider" id="slider">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+
+      
+      <div class="slide-btn-wrap">
+        <button class="slide-btn prev">←</button>
+        <button class="slide-btn next">→</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  
+</section>
+<!-- 아이콘 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer-inner">
+
+    <!-- SNS 아이콘 -->
+    <div class="sns-list">
+      <a href="#" class="sns-icon youtube"></a>
+      <a href="#" class="sns-icon instagram"></a>
+      <a href="#" class="sns-icon facebook"></a>
+    </div>
+
+    <!-- 카피라이트 -->
+    <p class="copyright">
+      copyright © 2018 Daejeon O-WORLD. All right reserved.
+    </p>
+
+  </div>
+</footer>
+
+    </div><!-- wrap -->
+
+
+
+
+      <script>
+    lucide.createIcons();
+    </script>
+</body>
+
+</html>
