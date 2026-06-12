@@ -1,0 +1,176 @@
+@charset "utf-8";
+#wrap{}
+
+#header{position: relative;width: 100%; height: 90px;}
+#header .top{ position:absolute; top: 0; left: 0; z-index: 1;height: 100px; width: 100%;}
+
+#header .top > .clearfix{background-color:#fff;height: 50px}
+#header .top > .clearfix > .inner {
+    height:100%;
+    position: relative;
+}
+#header h1{position: absolute; left: 50%; transform:translateX(-50%); top: 15px; }
+#header h1 img{height:15px}
+#header .util{position: absolute; top: 15px; right: 0;}
+#header  .util li{float: left; padding-left: 30px;  }
+#header  .util li a{display: block; font-size:14px;}
+#header nav {position: absolute; top: 50px;  text-align: center;background-color: #000; width:100%;}
+#header nav .gnb{
+
+}
+#header .gnb>li{float: left;position: relative;width: 210px;margin-left:20px;height: 40px;padding: 5px 0;}
+#header .gnb>li:first-child{margin-left:0}
+#header .gnb >li >a{ display: block; color:#fff; font-size: 16px;}
+#header .gnb>li:hover >a{
+   color:#f49b68
+}
+
+#header .gnb li .depth2{ width: 100%;;padding: 15px 0;position:absolute; top:25px;left:50%;transform: translateX(-50%);}
+#header .gnb li .depth2 li {padding: 10px 0;width: 100%; text-align: center;background-color: #4d433b; transition: all 0.3s;}
+#header .gnb li .depth2 li a{display:block; transition: font-weight 0.3s;color:#eed9c4;transition: all 0.3s;}
+#header .gnb li .depth2 li:hover{background-color:#eed9c4;}
+#header .gnb li .depth2 li:hover a{color:#4d433b;}
+
+
+#container .breadcrumbs {padding: 50px 0 80px; }
+#container .breadcrumbs li{float:left; padding: 15px; position: relative;  font-weight: 500;}
+#container .breadcrumbs li:first-child { padding-left:0;}
+#container .breadcrumbs li:not(:last-child):before{content:'';border-left: 2px solid #000; width: 1px; height: 20px; position: absolute; right: 0; top: 20px; transform:skewX(-15deg)}
+
+
+
+ h2{font-size: 60px;text-align: center;padding-bottom: 20px; font-weight: 600; }
+ .tit_cont{text-align:center;font-size: 25px; padding-bottom: 160px;}
+
+
+/* notice */
+#sub_visual01 {background:url('../images/sub/sub_visual01.png')no-repeat center center; height:706px; text-shadow: 1px 1px 10px rgba(0,0,0,0.38) }
+#sub_visual01 h2{ padding: 200px 0 35px; color:#edddca;text-shadow: 1px 1px 10px rgba(0,0,0,0.38) }
+#sub_visual01 .tit_cont { color:#fce6c3; }
+
+#notice input{margin-bottom: 20px;}
+#notice input[type="text"] {padding: 10px 60px 10px 10px; border: 1px solid #999; border-right: 0;  }
+#notice input[type="submit"]{cursor:pointer; background:url('../images/sub/search.png') no-repeat center center;  border: 1px solid #999;border-left: 0;padding: 17.7px 19px; font-size: 0; }
+#notice .order { float: right; cursor: pointer;  padding: 5px; margin-right: 100px;  width: 120px;}
+#notice .clearfix>li h3{font-size: 25px; font-weight: 700; padding: 10px 0 ; }
+#notice .clearfix >li {width: calc((100% - 40px)/2); float:left; padding-bottom: 150px;}
+
+#notice .clearfix  .pack_txt { width: 520px; height: 270px; position: relative;}
+#notice .clearfix   .cont {  font-weight: normal; padding-bottom:12px; font-size: 16px}
+#notice .date { font-size: 14px; position: absolute; top: 125px; width: 467px; border-bottom: 2px solid #999;margin-bottom: 10px;}
+
+#notice .clearfix >li p{font-size: 20px; font-weight: 600;  padding-bottom: 10px; }
+#notice .clearfix >li span{font-size: 18px; font-weight: normal; padding-left: 10px; }
+#notice .clearfix >li .price{ font-size: 28px; font-weight: normal; position: absolute; bottom: -15px;}
+
+#notice .paging ul{text-align:center; padding-top: 200px; text-align:center;}
+#notice .paging ul li{display: inline-block;  padding: 11px 12px; font-size: 20px }
+#notice .paging ul .first{margin-right: 20px; cursor:pointer; display: inline-block; text-indent: -9999px; width: 20px; height: 56px; background: url('../images/sub/paging_first.png') no-repeat center center;  }
+#notice .paging ul .prev{margin-right: 50px; cursor:pointer;display: inline-block; text-indent: -9999px;width: 20px; height: 56px;  background: url('../images/sub/paging_prev.png') no-repeat center center;  }
+#notice .paging ul .last{margin-left: 20px; cursor:pointer;display: inline-block; text-indent: -9999px; width: 20px; height: 56px; background: url('../images/sub/paging_last.png') no-repeat center center;  }
+#notice .paging ul .next{margin-left: 50px; cursor:pointer;display: inline-block; text-indent: -9999px; width: 20px; height: 56px; background: url('../images/sub/paging_next.png') no-repeat center center;  }
+
+#notice .paging ul li a{color:#999; font-size: 20px; }
+#notice .paging ul .on a{color:#000}
+
+
+
+
+/* reaturant */
+#sub_visual02 {background:url('../images/sub/sub_visual02.png')no-repeat center center; height:706px; text-shadow: 1px 1px 10px rgba(0,0,0,0.38) }
+#sub_visual02 h2{ padding: 200px 0 35px; color:#edddca;text-shadow: 1px 1px 10px rgba(0,0,0,0.38) }
+#sub_visual02 .tit_cont { color:#f3fdb9; }
+
+#resta  .rest_txt{ height: 840px; width: calc(100% - 734px); padding: 0 30px;}
+#resta  .rest_txt h3{font-size: 60px; padding: 40px 0 30px; font-weight: 700; color:#9b4632 }
+#resta  .rest_txt p{font-size: 22px; }
+#resta  .rest_txt p span{color:#942223; font-weight: 700;}
+#resta  .rest_txt .info{font-size: 18px; padding-top: 40px; white-space: pre;}
+
+#resta .rest_txt .view_more {transition: background 0.5s, color 0.5s; font-size:18px; display: inline-block;border: 2px solid #000; padding: 5px 15px; margin-top: 30px;  }
+#resta .rest_txt .view_more:hover{background:#000; color:#fff;}
+#resta .resta_01 img{float:left;  }
+#resta .resta_01 .rest_txt{float:right;}
+
+#resta .resta_02 {margin: 150px 0; }
+#resta .resta_02 img{float:right;}
+#resta .resta_02 .rest_txt{float:left;}
+
+#resta .resta_03 img{float:left;}
+#resta .resta_03 .rest_txt{float:right; }
+
+
+
+/* club josun */
+#sub_visual03 {background:url('../images/sub/sub_visual03.png')no-repeat center center; height:706px }
+#sub_visual03 h2{ padding: 200px 0 35px; color:#edddca; }
+#sub_visual03 .tit_cont { color:#fbfbfb; }
+#club .reward h3{font-size: 40px; text-align:center;  font-weight: 600; color:#412903;}
+#club .reward_cont{font-size: 20px; text-align: center;padding: 20px 0 70px;}
+#club .reward_list li{ position: relative; background: #f5e7cc;float: left; margin:0 30px 30px 0; font-size: 20px; width: calc((100% - 60px)/2); height: 310px; text-align:center }
+#club .reward_list li:before{ content: ''; position: absolute; left:0; transform: translate(-38%, -50%); top: 50%; background: #fff; border-radius: 50%; width:75px; height: 85px;}
+#club  .tit{font-weight: 600; padding: 10px 0;font-size: 30px; text-align:center; border-bottom: 2px dashed #000; background:#f5f0e6}
+#club  .reward_list li .cont{font-size: 20px; font-weight: 500; padding-top: 20px; background: #f5e7cc;} 
+#club span{font-size: 16px;font-weight: normal}
+
+#club .btn_sign{text-align:center; font-size: 24px;   }
+#club .btn_sign a{ transition: background 0.5s, color 0.5s;display:inline-block;border-radius: 50px; border: 3px solid #000;padding:10px 20px;}
+#club .btn_sign a:hover {background:#000; color:#fff; }
+
+
+#club .vip{ padding-top: 160px; }
+#club .vip h3{font-size: 40px; text-align:center;  font-weight: 600; color:#412903;}
+#club .vip_cont{font-size: 20px; text-align: center;padding: 20px 0 70px;}
+
+#club  .vip_list li .cont{padding-top: 20px; } 
+
+#club .vip_list{height: 1000px; }
+#club .vip_list li {width: calc(100%/4); height: 920px; float:left; }
+#club .vip_list li p{font-size: 22px;}
+#club .vip_list li .name{text-align:center}
+#club .vip_list li h4{text-align:center; font-weight: 600;font-size: 24px;}
+
+#club .vip_list .cont p{padding: 10px 13px;}
+#club .vip_list li h4{display:inline-block;padding-bottom: 20px; margin-bottom: 25px;}
+#club .vip_list li.vip_01 > .cont { height: 0; transition:height 1s;background: #014f52 }
+#club .vip_list li.vip_01:hover > .cont {background: #014f52; height: 100%; color:#fff;}
+
+#club .vip_list li.vip_02 > .cont { height: 0; transition:height 1s; background: #3c0562;}
+#club .vip_list li.vip_02:hover > .cont {background: #3c0562; height: 100%;color:#fff; }
+
+#club .vip_list li.vip_03 > .cont { height: 0; transition:height 1s; background: #02075b}
+#club .vip_list li.vip_03:hover > .cont {background: #02075b; height: 100%; color:rgba(255,255,255,0.9);}
+
+#club .vip_list li.vip_04 > .cont { height: 0; transition:height 1s; background: #010101;}
+#club .vip_list li.vip_04:hover > .cont {background: #010101; height: 100%; color:rgba(255,255,255,0.9);}
+
+
+
+#club .vip_list li.vip_01 h4{ border-bottom: 3px solid #146e71;}
+#club .vip_list li.vip_02 h4{border-bottom: 3px solid #641250; }
+#club .vip_list li.vip_03 h4{border-bottom: 3px solid #151975; }
+#club .vip_list li.vip_04 h4{border-bottom: 3px solid #010101; }
+
+#club .prom{ padding-top: 160px; }
+#club .prom h3{font-size: 40px; text-align:center;  font-weight: 600; color:#412903;}
+#club .prom_cont{font-size: 20px; text-align: center;padding: 20px 0 70px;}
+#club .prom_list li{float:left; }
+#club .prom_list li:not(:last-child){margin-right: 30px; }
+#club .prom_list li .date{font-size: 20px;padding:10px 0; color:#0c0e76 }
+#club .prom_list li .name{font-size: 28px; font-weight: 500; padding-bottom: 20px}
+#club .prom_list li .view_more{transition: background 0.5s, color 0.5s;display: inline-block; border: 2px solid #000; padding: 5px 10px; margin-top: 15px;}
+#club .prom_list li .view_more:hover{background:#000; color:#fff;}
+/* footer */
+#footer {background:#000; margin-top: 160px; }
+#footer .inner{position: relative;height: 320px;}
+#footer .footer_logo {position: absolute; left: 0; top:45px;   }
+#footer .footer_sns{position: absolute; left: 264px; top:45px; }
+#footer .footer_sns li{float: left; padding-right:12px}
+#footer .footer_txt {position:absolute; left: 264px; top: 120px; color:#fff; }
+#footer .footer_txt address{white-space: pre-line;}
+
+#footer .family{cursor: pointer; padding-left: 5px; position:absolute; right:45px; top: 42px; width: 185px; height: 33px; background:#333; color:#fff;  }
+
+#footer .footer_link{position:absolute; right: 0; top: 95px; width: 240px; border:0;}
+#footer .footer_link li{ float: left;width: 109px;  margin-left: 10px; padding-bottom: 2px ;}
+#footer .footer_link li a{color:#fff;}

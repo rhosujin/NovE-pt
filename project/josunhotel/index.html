@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조선호텔</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR&display=swap"
+        rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/ani.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="main_visual">
+        <header id="header">
+            <div class="top">
+                <div class="clearfix">
+                    <div class ="inner">
+                        <h1><a href="index.html"><img src="images/common/logo.png" alt="조선호텔"></a></h1>
+                                <nav>
+                                    <ul class="gnb clearfix">
+                                        <li class="gnb_menu">
+                                        <a href="#">about us</a>
+
+                                        <div class="depth2 mega">
+
+                                            <!-- 왼쪽 메뉴 -->
+                                            <ul class="depth2-menu">
+                                            <li data-img="img1"><a href="#">기업소개</a></li>
+                                            <li data-img="img2"><a href="#">연혁</a></li>
+                                            <li data-img="img3"><a href="#">수상내역</a></li>
+                                            <li data-img="img4"><a href="#">결산 공고</a></li>
+                                            <li data-img="img5"><a href="#">오시는 길</a></li>
+                                            <li data-img="img6"><a href="#">hotels</a></li>
+                                            </ul>
+
+                                            <!-- 오른쪽 이미지 -->
+                                            <div class="depth2-visual">
+                                            <img src="images/main/menu_01.jpg" id="menu-image" alt="">
+                                            <p class="menu-text">기업의 가치와 철학을 소개합니다</p>
+                                            </div>
+
+                                        </div>
+                                        </li> 
+                                       <li class="gnb_menu">
+                                        <a href="#">Special offers</a>
+
+                                         <div class="depth2 mega">
+
+                                            <ul class="depth2-menu">
+                                                <li data-img="img1"><a href="sub/sub.html">Package</a></li>
+                                                <li data-img="img2"><a href="#">Events</a></li>
+                                                <li data-img="img3"><a href="#">Dear my ANNE</a></li>
+                                            </ul>
+
+                                            <!-- 오른쪽 이미지 -->
+                                            <div class="depth2-visual">
+                                            <img src="images/main/menu_02.png" id="menu-image" alt="">
+                                            <p class="menu-text">지금만 만나볼 수 있는 특별한 혜택을 확인하세요”</p>
+                                            </div>
+
+                                        </div>
+                                        </li>
+                                        
+                                        <li class="gnb_menu"><a href="#">My page</a>
+                                            <div class="depth2 mega">
+
+                                                <ul class="depth2-menu">
+                                                    <li data-img="img1"><a href="#">My page</a></li>
+                                                    <li data-img="img2"><a href="#">예약확인</a></li>
+                                                    <li data-img="img3"><a href="#">정보수정</a></li>
+                                                    <li data-img="img4"><a href="#">Club JOSUN</a></li>
+                                                </ul>
+                                                <!-- 오른쪽 이미지 -->
+                                                <div class="depth2-visual">
+                                                <img src="images/main/menu_03.jpg" id="menu-image" alt="">
+                                                <p class="menu-text">나의 예약과 이용 정보를 한눈에 확인할 수 있습니다</p>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <li class="gnb_menu"><a href="#">service</a>
+                                            <div class="depth2 mega">
+
+                                                <ul class="depth2-menu">
+                                                    <li data-img="img1"><a href="#">Q&A</a></li>
+                                                    <li data-img="img2"><a href="#">FAQ</a></li>
+                                                    <li data-img="img3"><a href="#">고객센터</a></li>
+                                                </ul>
+
+                                                <!-- 오른쪽 이미지 -->
+                                                <div class="depth2-visual">
+                                                <img src="images/main/menu_04.jpg" id="menu-image" alt="">
+                                                <p class="menu-text">고객님의 편안한 투숙을 위한 맞춤형 서비스를 제공합니다</p>
+                                                </div>
+
+                                         </div>
+
+                                        </li>
+                                        <li class="gnb_menu"><a href="#">retail business</a>
+                                            <div class="depth2 mega">
+
+                                                <ul class="depth2-menu">
+                                                    <li data-img="img1"><a href="#">Restaurants</a></li>
+                                                    <li data-img="img1"><a href="#">Product</a></li>
+                                                </ul>
+                                                <!-- 오른쪽 이미지 -->
+                                                <div class="depth2-visual">
+                                                <img src="images/main/menu_05.jpg" id="menu-image" alt="">
+                                                <p class="menu-text">일상 속에서도 호텔의 품격을 경험할 수 있는 상품을 제공합니다</p>
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                                <!-- <ul class="util">
+                                    <li><a href="#">로그인</a></li>
+                                    <li><a href="#">회원가입</a></li>
+                                    <li><a href="#">호텔찾기</a></li>
+                                </ul> -->
+
+
+
+                                <div class="resrve"><a href="#">RESERVATION</a></div>
+                
+                
+                
+                
+                
+                            </div><!-- inner -->
+
+                
+                </div><!-- clearfix -->
+
+                    <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+
+            </div><!-- top -->
+        </header>
+
+  <div class= "hero">      
+<div class="hero-slider">
+
+<div class="slide active" style="background-image:url('images/main/main_01.png')"></div>
+<div class="slide" style="background-image:url('images/main/main_02.png')"></div>
+<div class="slide" style="background-image:url('images/main/main_03.png')"></div>
+
+</div>
+
+<div class="hero-content">
+
+<h1 class="hero-title" id="heroText">
+<span>EXPERIENCE</span>
+<span>THE</span>
+<span>DIFFERENCE</span>
+</h1>
+
+</div>
+</div>
+                </div>
+                <!-- main viusal -->
+              </div>
+              <!-- wrap -->
+
+<section class="booking">
+
+<div class="booking-wrap">
+
+<div class="booking-item">
+<label>Location</label>
+<input type="text" placeholder="도시 또는 호텔">
+</div>
+
+<div class="booking-item">
+<label>Check in</label>
+<input type="text" id="checkin" placeholder="날짜 선택">
+</div>
+
+<div class="booking-item">
+<label>Check out</label>
+<input type="text" id="checkout" placeholder="날짜 선택">
+</div>
+
+<div class="booking-item room-box">
+<label>Rooms</label>
+
+<div class="summary">
+<span id="roomTotal">1</span> Room
+</div>
+
+<div class="dropdown room-dropdown">
+
+<div class="row">
+Rooms
+<button class="room-minus">-</button>
+<span class="room-count">1</span>
+<button class="room-plus">+</button>
+</div>
+
+</div>
+</div>
+
+<div class="booking-item guest-box">
+<label>Guests</label>
+
+<div class="summary">
+<span id="guestTotal">2</span> Guests
+</div>
+
+<div class="dropdown guest-dropdown">
+
+<div class="row">
+Adults
+<button class="minus">-</button>
+<span class="count">2</span>
+<button class="plus">+</button>
+</div>
+
+<div class="row">
+Children
+<button class="minus">-</button>
+<span class="count">0</span>
+<button class="plus">+</button>
+</div>
+
+</div>
+
+</div>
+
+<button class="reserve-btn">SEARCH</button>
+
+</div>
+
+</section>
+
+            <section id="offers">
+                <h2>Go to offers</h2>
+                <p class="tit_cont">조선호텔앤리조트가 제공하는 특별한 패키지와 이벤트들을 만나보세요
+                </p>
+                <div class="bg clearfix  ani_stop ani-start-fadeUp">
+                <div class="inner">
+                     <div class="offer-section">
+                    <div class="card-wrap">
+
+                        <div class="card">
+                        <div class="img-box">
+                            <img src="images/main/offers_01.png" alt="">
+                            <span class="label">웨스틴 조선 호텔</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Taste of Josun</h3>
+                            <p class="desc">
+                            따뜻한 봄, 인룸 다이닝으로 즐길 수 있는 K-Food 메뉴를 선보입니다.
+                            </p>
+                            <p class="date">2025.03.20 - 2025.06.30</p>
+                        </div>
+                        </div>
+
+                        <div class="card">
+                        <div class="img-box">
+                            <img src="images/main/offers_02.png" alt="">
+                            <span class="label">포포인츠 바이 쉐라톤 서울역</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>BEST AVAILABLE RATE</h3>
+                            <p class="desc">
+                            사랑하는 사람과 잊지 못할 추억을 만들어 보세요!
+                            </p>
+                            <p class="date">2024.12.24 - 2025.12.31</p>
+                        </div>
+                        </div>
+
+                        <div class="card">
+                        <div class="img-box">
+                            <img src="images/main/offers_03.png" alt="">
+                            <span class="label">포포인츠 바이 쉐라톤 명동</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>BEST AVAILABLE RATE</h3>
+                            <p class="desc">
+                            도심 전망을 만끽하며 여유로운 하루를 보내세요.
+                            </p>
+                            <p class="date">2024.12.13 - 2025.12.31</p>
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <div class="btn-wrap">
+                        <button class="view-btn">view more</button>
+                    </div>
+                </div>
+                    
+
+                </div><!-- inner -->
+                </div><!-- bg -->
+                <div class="offers_bg"></div>
+            </section><!-- offers -->
+
+
+
+
+<!-- 
+            <section id="retail">
+                <div class="inner">
+                <h2>Retail Business</h2>
+                <p class="tit_cont">조선호텔앤리조트의 품격있는 라이프 스타일</p>
+                <ul class="inner clearfix">
+                    <li class="ani_stop ani-start-fadeUp"><a href="sub/sub_2.html"><img src="images/main/busi_01.jpg" alt="restautrants사진"><p>RESTAURANTS</p></a></li>
+                    <li class="ani_stop ani-start-fadeUp ani-delay-03"><a href="#"><img src="images/main/busi_02.jpg" alt="product 사진"><p>PRODUCT</p></a></li>
+                    <li class="ani_stop ani-start-fadeUp ani-delay-06"><a href="#"><img src="images/main/busi_03.jpg" alt="office management service 사진"><p>OFFICE MANAGEMENT SERVICES</p></a></li>
+
+                </ul>
+            </div>
+            </section> -->
+
+
+
+
+
+            <!-- retail -->
+
+
+
+
+           <section class="about-section">
+        <div class="inner">
+
+            <div class="img-wrap">
+            <div class="bg-box"></div>
+            
+            <img src="images/main/about_01.png" alt="hotel room">
+            </div>
+
+            <div class="text-wrap">
+            <h4>about us</h4>
+            <h2>
+                어디서나 한결같이 품격있는 서비스와 시설로<br>
+                고객에게 깊은 감동을 주는 호텔
+            </h2>
+
+            <p class="desc">
+                1914년 조선호텔이 시작된 이래, 조선호텔앤리조트는 ‘First & Best’ 정신을
+이어오며 호스피탈리티 산업의 대표기업으로 자리매김 하고 있습니다.
+수많은 ‘한국 최초’의 신화를 남겨온 조선호텔앤리조트는 호텔 뿐 아니라 외식사업,
+오피스 빌딩 위탁 운영 등 품격 있는 서비스와 시설을 제공합니다.
+균형있는 라이프 스타일을 추구하며 품격의 가치를 아는 고객을 위해 세련되고
+모던한 감각을 지닌 안락한 객실과 세심한 배려가 묻어나는 서비스를 제공합니다.
+            </p>
+
+            <a href="#" class="view-btn">view more</a>
+            </div>
+
+        </div>
+        </section>
+
+
+
+        <section class="club-section">
+            <div class="inner">
+                
+                <div class="club-text">
+                <h2>Club Josun</h2>
+                <p>
+                    품격 있는 서비스와 다채로운 라이프 스타일을 선사하는 조선호텔앤리조트의 통합 멤버십 프로그램,<br>
+                    클럽조선(CLUB JOSUN) 지금 회원만을 위한 특별한 혜택과 경험을 확인해보세요.
+                </p>
+                </div>
+
+                <div class="club-btns">
+                <a href="#" class="btn-outline">VIEW MORE & JOIN</a>
+                <a href="#" class="btn-outline">MEMBER'S EVENT</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="taste-section">
+        <div class="inner">
+
+            <div class="taste-card">
+            <img src="images/main/card_01.png" alt="">
+            <div class="overlay"></div>
+            <div class="content">
+                <h2>TASTE & STYLE</h2>
+                <p>
+                조선의 헤리티지를 담은 조선의 맛과<br>
+                변치않는 다채로움 우아함을 느낄 수 있는 조선의 테이블을<br>
+                매일의 식탁에서 만나보세요.
+                </p>
+                <a href="#" class="view-btn">VIEW MORE</a>
+            </div>
+            </div>
+
+            <div class="taste-card">
+            <img src="images/main/card_02.png" alt="">
+            <div class="overlay"></div>
+            <div class="content">
+                <h2>JOSUN LOUNGE</h2>
+                <p>
+                조선호텔앤리조트가 만드는 웹매거진<br>
+                누구나 편하게 읽어보는 이야기를 담아<br>
+                휴식을 취하는 라운지 공간을 소개합니다.
+                </p>
+                <a href="#" class="view-btn">VIEW MORE</a>
+            </div>
+            </div>
+
+        </div>
+        </section>
+            
+
+        
+
+  <section class="retail-section">
+  <div class="retail-inner">
+
+    <!-- 왼쪽 메뉴 -->
+    <div class="retail-menu">
+      <h3>Retail Business</h3>
+      <ul>
+        <li class="active"  data-tab="tab1"><i></i>호경전</li>
+        <li data-tab="tab2"><i></i>호무랑</li>
+        <li data-tab="tab3"><i></i>제주테이블</li>
+        <li data-tab="tab4"><i></i>MOTT 32 SEOUL</li>
+        <li data-tab="tab5"><i></i>Kyukmul Gongboo</li>
+        <li data-tab="tab6"><i></i>조선델리</li>
+        <li data-tab="tab7"><i></i>State Tower</li>
+        <li data-tab="tab8"><i></i>CENTERFIELD</li>
+      </ul>
+    </div>
+
+    <!-- 오른쪽 이미지 영역 -->
+    <div class="retail-visual">
+
+  <!-- tab1 -->
+  <div class="visual-item active" id="tab1">
+    <img src="images/main/busi_01.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>호경전</h2>
+      <p>
+        호경전은 편안한 분위기에서 조선호텔의 프리미엄 중식을<br>
+        경험할 수 있는 차이니스 레스토랑 입니다.
+      </p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+  <!-- tab2 -->
+  <div class="visual-item" id="tab2">
+    <img src="images/main/busi_02.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>호무랑</h2>
+      <p>정갈하고 차분한 공간에서 조선호텔의 프리미엄 일식을 경험할 수 있는<br>일본 가이세키 레스토랑입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+  <!-- tab3 -->
+  <div class="visual-item" id="tab3">
+    <img src="images/main/busi_03.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>제주테이블</h2>
+      <p>제주 식재료로 제주의 맛과 감성을 즐길 수 있는 캐주얼 다이닝 레스토랑입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+
+  <!-- tab4 -->
+  <div class="visual-item" id="tab4">
+    <img src="images/main/busi_04.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>MOTT 32 SEOUL</h2>
+      <p>현대적인 감각으로 재해석한 정통 광둥 요리를 선보이는<br>프리미엄 차이니스 레스토랑입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+
+<!-- tab5 -->
+  <div class="visual-item" id="tab5">
+    <img src="images/main/busi_05.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>Kyukmul Gongboo</h2>
+      <p>전통과 현대를 조화롭게 담아낸 감각적인 다이닝 공간에서 특별한 미식을 경험할 수 있는 레스토랑입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+
+  <!-- tab6 -->
+  <div class="visual-item" id="tab6">
+    <img src="images/main/busi_06.jpeg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>조선델리</h2>
+      <p>호텔 베이커리의 정수를 담아 장인 정신으로 완성한<br>디저트와 베이커리를 선보이는 프리미엄 델리입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+
+  <!-- tab7 -->
+  <div class="visual-item" id="tab7">
+    <img src="images/main/busi_07.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>State Tower</h2>
+      <p>State Tower는 도심 속 세련된 공간에서 다양한 미식과 라이프스타일을 함께 즐길 수 있는 복합 다이닝 타워입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+
+  <!-- tab8 -->
+  <div class="visual-item" id="tab8">
+    <img src="images/main/busi_08.jpg" alt="">
+    <div class="overlay"></div>
+
+    <div class="visual-content">
+      <h2>CENTERFIELD</h2>
+      <p>비즈니스와 라이프스타일이 공존하는 도심형 복합 공간으로,<br>다양한 미식과 편의시설을 함께 즐길 수 있는 곳입니다.</p>
+      <a href="#" class="read-btn">Read more</a>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+</section>
+
+            
+<section class="hotels-section">
+  <div class="inner">
+
+    <h2 class="section-title">Our Hotels</h2>
+
+    <div class="hotel-slider">
+
+      <div class="hotel-track-wrap">
+        <div class="hotel-track">
+
+          <!-- 카드 8개 -->
+          <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_01.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">조선팰리스</p>
+              <p class="loc">서울 강남</p>
+            </div>
+          </div>
+
+           <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_02.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">웨스틴조선 서울</p>
+              <p class="loc">서울 중구</p>
+            </div>
+          </div>
+
+             <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_03.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">웨스틴조선 부산</p>
+              <p class="loc">부산 해운대</p>
+            </div>
+          </div>
+
+              <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_04.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">그랜드조선 부산</p>
+              <p class="loc">부산 해운대</p>
+            </div>
+          </div>
+
+              <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_05.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">그랜드조선 제주</p>
+              <p class="loc">제주 서귀포</p>
+            </div>
+          </div>
+
+              <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_06.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">레스케이프 호텔</p>
+              <p class="loc">서울 중구</p>
+            </div>
+          </div>
+
+              <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_07.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">그래피티서울 판교</p>
+              <p class="loc">경기 성남</p>
+            </div>
+          </div>
+
+              <div class="hotel-card">
+             <div class="img-wrap">
+              <img src="images/main/hotel_08.png">
+            </div>
+
+            <div class="hotel-info">
+              <p class="name">포포인츠 바이 쉐라톤 조선</p>
+              <p class="loc">서울역</p>
+            </div>
+          </div>
+          
+          <!-- 같은 구조로 7개 더 -->
+
+        </div>
+      </div>
+
+      <!-- 하단 영역 -->
+      <div class="hotel-bottom">
+        <div class="progress-wrap">
+          <div class="progress-bar"></div>
+        </div>
+
+        <div class="control">
+          <span class="page">1 / 3</span>
+          <button class="prev">&lt;</button>
+          <button class="next">&gt;</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+            <footer id="footer">
+                <div class="inner">
+                  <div class="footer-left">
+                <div class="footer_logo">
+                    <img src="images/common/footer_logo.png" alt="조선호텔">
+                </div>
+                <ul class="footer_sns">
+                    <li><a href="#"><img src="images/common/sns_01.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="images/common/sns_02.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="images/common/sns_03.png" alt="카카오"></a></li>
+
+                </ul>
+                <div class="footer_txt">
+                <address>서울시 중구 소공로 106     tel. 02-771-0500<br>사업자등록번호 104-81-27386 통신판매신고번호 중구 0623호
+                   <p class="copy"> COPYTRIGHT ⓒ 2020 JOSUN HOTELS & RESORTS CO.ALL rights reserved.</p></address>
+                </div>
+              </div>
+              
+              <div class="footer-right">
+                <select class="family">
+                    <option>family site</option>
+                    <option>신세계백화점</option>
+                    <option>이마트</option>
+
+                </select>
+                
+            <ul class="footer_link">
+                <li><a href="#">조선호텔 소개</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">호텔 찾기</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">예약하기</a></li>
+                <li><a href="#">지점별 전화번호</a></li>
+            </ul>
+          </div>
+         </div><!-- inner -->
+            </footer>
+
+
+
+            <!-- Quick Menu -->
+<div class="quick-menu">
+
+<a href="#" class="quick-btn">
+<span class="text">호텔예약</span>
+<i class="fa-solid fa-hotel"></i>
+</a>
+
+<a href="#" class="quick-btn">
+<span class="text">레스토랑</span>
+<i class="fa-solid fa-utensils"></i>
+</a>
+
+<a href="#" class="quick-btn">
+<span class="text">프로모션</span>
+<i class="fa-solid fa-gift"></i>
+</a>
+
+<a href="#" class="quick-btn top-btn">
+<span class="text">TOP</span>
+<i class="fa-solid fa-arrow-up"></i>
+</a>
+
+</div>
+<!-- Scroll indicator -->
+
+<div class="scroll-indicator">
+<span></span>
+</div>
+
+<!-- Scroll indicator -->
+
+<div class="scroll-indicator">
+<span></span>
+</div>
+
+            <!-- <div class="gotop">top</div> -->
+            
+
+    </div><!-- wrap -->
+</body>
+
+</html>
