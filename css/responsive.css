@@ -1,0 +1,90 @@
+    /* RESPONSIVE */
+
+    @media(max-width:1024px){
+
+      .hero-grid,
+      .about-grid,
+      .project-item,
+      .process-wrap{
+        grid-template-columns:1fr;
+      }
+
+      .project-item:nth-child(even){
+        direction:ltr;
+      }
+
+      .hero-title{
+        letter-spacing:-4px;
+      }
+
+      section{
+        padding:120px 0;
+      }
+  
+    .hero-card{
+        right:4%;
+  }
+
+    }
+
+    @media(max-width:768px){
+
+      .gnb{
+        display:none;
+      }
+
+    .hero{
+        padding-top:100px;
+    }
+
+      .hero-content{
+    padding-left:0;
+  }
+
+    .hero-title .fill,
+  .hero-title .outline{
+    font-size:72px;
+  }
+
+  .hero-card{
+    display:none;
+  }
+
+
+      .hero-desc,
+      .about-text,
+      .project-info p,
+      .process-card p{
+        font-size:15px;
+      }
+
+      .contact-btn{
+        width:140px;
+        height:140px;
+        font-size:14px;
+      }
+
+
+      .scene{
+        transform:scale(0.7);
+      }
+
+      .glass-card{
+        display:none;
+      }
+
+      .hero-title{
+        bottom:60px;
+      }
+
+      .hero-title h1{
+        letter-spacing:-3px;
+      }
+
+    }
+
+
+
+    
+
+
